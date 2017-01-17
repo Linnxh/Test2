@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inter_val"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.example.lxh.test.InterValActivity">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content">
+        <com.example.lxh.test.customview.MyIntervalView
+            android:id="@+id/myinterView"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+
+            android:gravity="center"></com.example.lxh.test.customview.MyIntervalView>
+
+        <com.example.lxh.test.customview.MyIntervalViewTopCircle
+            android:id="@+id/myinterViewTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"></com.example.lxh.test.customview.MyIntervalViewTopCircle>
+
+    </FrameLayout>
+
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="在机票购买\n的开发楼的看法" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="20dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:background="#ddaaee" />-->
+    <!--</LinearLayout>-->
+</RelativeLayout>
